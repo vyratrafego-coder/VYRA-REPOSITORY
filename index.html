@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VYRA Saúde — Marketing e performance para negócios da saúde</title>
+<meta name="description" content="Sites, tráfego pago e estratégia digital para negócios da saúde que querem crescer. Estratégia que cuida e transforma.">
+<link rel="canonical" href="https://vyra-saude.netlify.app/">
+<meta name="theme-color" content="#071A33">
+
+<!-- Open Graph / social preview (usado pelo WhatsApp, Instagram, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="VYRA Saúde">
+<meta property="og:title" content="VYRA Saúde — Marketing e performance para negócios da saúde">
+<meta property="og:description" content="Sites, tráfego pago e estratégia digital para negócios da saúde que querem crescer. Estratégia que cuida e transforma.">
+<meta property="og:url" content="https://vyra-saude.netlify.app/">
+<meta property="og:image" content="https://vyra-saude.netlify.app/assets/img/hero-consulta.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VYRA Saúde — Marketing e performance para negócios da saúde">
+<meta name="twitter:description" content="Sites, tráfego pago e estratégia digital para negócios da saúde que querem crescer.">
+<meta name="twitter:image" content="https://vyra-saude.netlify.app/assets/img/hero-consulta.jpg">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Manrope:wght@400;500;600;700;800&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "VYRA Saúde",
+  "description": "Sites, tráfego pago e estratégia digital para negócios da saúde que querem crescer.",
+  "url": "https://vyra-saude.netlify.app/",
+  "image": "https://vyra-saude.netlify.app/assets/img/hero-consulta.jpg",
+  "email": "vyra.trafego@gmail.com",
+  "telephone": "+5511947813814",
+  "areaServed": "BR",
+  "sameAs": ["https://instagram.com/vyra_ads"],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Criação de sites e landing pages para saúde" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gestão de tráfego pago (Meta Ads e Google Ads)" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratégia digital para negócios da saúde" } }
+  ]
+}
+</script>
+<style>
+    :root, body {
+      --navy: #071A33;
+      --navy-2: #0B2945;
+      --turq: #35B8B5;
+      --teal: #269C9D;
+      --white: #FFFFFF;
+      --offwhite: #F7F9F8;
+      --gray-l: #EEF2F2;
+      --gray-t: #667085;
+      --teal-ink: #1B7274;
+    }
+    html { scroll-behavior: smooth; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--white);
+      color: var(--navy);
+      font-family: "Manrope", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, .serif {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 480;
+      line-height: 1.12;
+      margin: 0;
+      letter-spacing: -0.01em;
+      color: var(--navy);
+    }
+    p { margin: 0; }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 40px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: "Manrope", sans-serif;
+      font-size: 11.5px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--teal-ink);
+    }
+    .eyebrow.on-dark { color: var(--turq); }
+    .eyebrow::before { content: ""; display: inline-block; width: 22px; height: 1px; background: var(--turq); }
+    .btn-primary {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      background: var(--navy); color: var(--white);
+      font-family: "Manrope", sans-serif;
+      font-weight: 600; font-size: 14.5px; letter-spacing: 0.01em;
+      padding: 15px 26px; border-radius: 3px; border: none; cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .btn-primary:hover { background: var(--navy-2); }
+    .btn-primary.on-dark { background: var(--turq); color: var(--navy); }
+    .btn-primary.on-dark:hover { background: var(--white); }
+    nav a { font-family: "Manrope", sans-serif; color: var(--navy); font-weight: 500; font-size: 14px; padding-bottom: 4px; border-bottom: 1px solid transparent; transition: border-color 0.2s ease, color 0.2s ease; }
+    nav a:hover { color: var(--teal); border-bottom: 1px solid var(--teal); }
+    .num {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 400; font-size: 15px; color: var(--teal-ink);
+      letter-spacing: 0.02em;
+    }
+    .timeline-num { text-align:center; position:relative; z-index:1; }
+    .timeline { position:relative; }
+    .timeline::before {
+      content: ""; position: absolute; left: 22px; top: 0; bottom: 0; width: 1px;
+      background: var(--gray-l);
+    }
+    .timeline-content { transition: transform 0.25s ease; }
+    .timeline-row:hover .timeline-content { transform: translateX(8px); }
+    .specialty-row {
+      display:flex; align-items:center; justify-content:space-between; gap:16px;
+      padding: 18px 2px; border-bottom: 1px solid var(--gray-l);
+      transition: padding-left 0.2s ease;
+    }
+    .specialty-row:hover { padding-left: 8px; }
+    .specialty-row:hover .specialty-arrow { opacity: 1; transform: translateX(0); }
+    .specialty-arrow { opacity:0; transform: translateX(-6px); transition: opacity 0.2s ease, transform 0.2s ease; color: var(--turq); }
+    .photo-frame {
+      position: relative; width: 100%; overflow: hidden;
+      background: var(--offwhite);
+      border: 1px solid var(--gray-l);
+    }
+    .pilltext {
+      font-family: "Manrope", sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 0.03em; text-transform: uppercase; color: var(--navy);
+    }
+    .fade-up { animation: fadeUp 0.7s ease both; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .flow-word { font-family:"Manrope", sans-serif; font-weight:800; font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy); white-space: nowrap; }
+    .flow-arrow-line { flex: 1; height: 1px; background: var(--gray-l); position: relative; min-width: 40px; }
+    .flow-arrow-line::after { content: "→"; position: absolute; right: -2px; top: 50%; transform: translateY(-50%); color: var(--turq); font-size: 16px; }
+    .faq-chevron.open { transform: rotate(180deg); }
+    .menu-btn {
+      display: none; flex-direction: column; justify-content: center; gap: 5px;
+      width: 34px; height: 34px; background: none; border: none; cursor: pointer; padding: 0;
+    }
+    .menu-btn span { display:block; width: 100%; height: 2px; background: var(--navy); transition: transform 0.2s ease, opacity 0.2s ease; }
+    .menu-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .menu-btn.open span:nth-child(2) { opacity: 0; }
+    .menu-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    #mobileNav {
+      display: none; flex-direction: column; gap: 2px;
+      background: var(--white); border-bottom: 1px solid var(--gray-l);
+      padding: 8px 22px 20px;
+    }
+    #mobileNav a {
+      font-family: "Manrope", sans-serif; font-weight: 600; font-size: 15.5px; color: var(--navy);
+      padding: 13px 2px; border-bottom: 1px solid var(--gray-l);
+    }
+    #mobileNav.open { display: flex; }
+    @media (max-width: 900px) {
+      .grid-2 { grid-template-columns: 1fr !important; }
+      .grid-3 { grid-template-columns: 1fr !important; }
+      .hide-mobile { display: none !important; }
+      .menu-btn { display: flex; }
+      h1.hero-h { font-size: 38px !important; }
+      h2.section-h { font-size: 30px !important; }
+      .container { padding: 0 22px; }
+      .flow-row { flex-direction: column !important; align-items: flex-start !important; gap: 14px !important; }
+      .flow-arrow-line { display:none; }
+    }
+</style>
+</head>
+<body>
+<div style="width:100%; overflow-x: hidden; background: var(--white);">
+
+  <!-- HEADER -->
+  <header style="background: var(--white); border-bottom: 1px solid var(--gray-l);">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; height: 88px;">
+      <div style="display:flex; align-items:center; gap:11px;">
+        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" fill="none">
+          <path d="M4 6 L15 6 L22 20 L17 20 Z" fill="var(--navy)"></path>
+          <path d="M25 6 L36 6 L22 34 L17 34 Z" fill="var(--turq)"></path>
+        </svg>
+        <div style="line-height:1;">
+          <div style="font-family:'Fraunces',serif; font-size:19px; font-weight:500; letter-spacing:0.02em; color:var(--navy);">VYRA</div>
+          <div style="font-family:'Manrope',sans-serif; font-size:8.5px; font-weight:700; letter-spacing:0.2em; color:var(--teal); margin-top:2px;">SAÚDE</div>
+        </div>
+      </div>
+      <nav class="hide-mobile" style="display:flex; align-items:center; gap:38px;">
+        <a href="#hero">Início</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#para-quem">Para quem é</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20Sa%C3%BAde%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary" style="padding: 12px 22px; font-size: 13.5px;">Falar com a VYRA</a>
+        <button class="menu-btn" id="menuBtn" onclick="toggleMenu()" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav id="mobileNav">
+      <a href="#hero" onclick="closeMenu()">Início</a>
+      <a href="#solucoes" onclick="closeMenu()">Soluções</a>
+      <a href="#como-funciona" onclick="closeMenu()">Como funciona</a>
+      <a href="#para-quem" onclick="closeMenu()">Para quem é</a>
+      <a href="#faq" onclick="closeMenu()">FAQ</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" style="padding: 88px 0 108px;">
+    <div class="container grid-2" style="display:grid; grid-template-columns: 1.02fr 0.98fr; gap: 72px; align-items:center;">
+      <div class="fade-up">
+        <span class="eyebrow">VYRA Saúde</span>
+        <p style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--gray-t); margin-top:14px;">Estratégia que cuida e transforma</p>
+        <h1 class="hero-h" style="font-size: 54px; margin-top: 26px;">Seu negócio de saúde<br>merece ser encontrado.</h1>
+        <p style="font-family:'Manrope',sans-serif; font-size: 17px; line-height: 1.65; color: var(--gray-t); margin-top: 26px; max-width: 440px;">
+          Sites, tráfego pago e estratégia digital para negócios da saúde que querem crescer.
+        </p>
+        <div style="margin-top: 38px;">
+          <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20Sa%C3%BAde%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary">Quero conversar com a VYRA</a>
+        </div>
+      </div>
+      <div class="photo-frame fade-up" style="aspect-ratio: 4/5;">
+        <img src="assets/img/hero-consulta.jpg" width="1200" height="1500" alt="Profissional de saúde conversando com paciente em consulta" style="width:100%; height:100%; object-fit:cover; display:block;" loading="eager" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 01 -->
+  <section style="padding: 100px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
+    <div class="container" style="max-width: 880px;">
+      <span class="eyebrow">01</span>
+      <h2 class="section-h" style="font-size: 36px; margin-top: 20px;">Antes do paciente chegar até você, ele pesquisa.</h2>
+      <p style="font-family:'Manrope',sans-serif; font-size: 16px; line-height:1.7; color: var(--gray-t); margin-top: 22px; max-width: 620px;">
+        Seu site, sua presença no Google e seus anúncios fazem parte da primeira impressão que o seu negócio causa.
+      </p>
+      <div class="flow-row" style="display:flex; align-items:center; gap: 22px; margin-top: 56px;">
+        <span class="flow-word">Pesquisa</span>
+        <span class="flow-arrow-line"></span>
+        <span class="flow-word">Confiança</span>
+        <span class="flow-arrow-line"></span>
+        <span class="flow-word" style="color:var(--teal);">Contato</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 02 -->
+  <section style="padding: 112px 0;">
+    <div class="container grid-2" style="display:grid; grid-template-columns: 0.95fr 1.05fr; gap: 72px; align-items:center;">
+      <div class="photo-frame" style="aspect-ratio: 1/1;">
+        <img src="assets/img/exame-tablet.jpg" width="1100" height="1100" alt="Médica mostrando exame em tablet para paciente" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+      </div>
+      <div>
+        <span class="eyebrow">02</span>
+        <h2 class="section-h" style="font-size: 34px; margin-top: 20px;">Você cuida dos seus pacientes.<br>A gente cuida da sua presença digital.</h2>
+        <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; line-height:1.75; color: var(--gray-t); margin-top: 24px; max-width: 460px;">
+          Enquanto você concentra seu tempo no atendimento, a VYRA trabalha para tornar sua marca mais visível, profissional e preparada para conquistar novos pacientes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 03 -->
+  <section id="solucoes" style="padding: 112px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
+    <div class="container">
+      <span class="eyebrow">03 — Soluções</span>
+      <h2 class="section-h" style="font-size: 34px; margin-top: 20px; max-width: 640px;">O que a VYRA constrói para o seu negócio.</h2>
+      <div class="grid-3" style="display:grid; grid-template-columns: repeat(3, 1fr); margin-top: 64px;">
+        <div style="padding: 0 32px 0 0;">
+          <span class="num">01</span>
+          <h3 style="font-size: 21px; margin-top:16px;">Presença</h3>
+          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Sites e landing pages que transmitem confiança.</p>
+        </div>
+        <div style="padding: 0 32px; border-left: 1px solid var(--gray-l);">
+          <span class="num">02</span>
+          <h3 style="font-size: 21px; margin-top:16px;">Aquisição</h3>
+          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Meta Ads e Google Ads para colocar seu negócio diante das pessoas certas.</p>
+        </div>
+        <div style="padding: 0 0 0 32px; border-left: 1px solid var(--gray-l);">
+          <span class="num">03</span>
+          <h3 style="font-size: 21px; margin-top:16px;">Performance</h3>
+          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Estratégia, análise e otimização para melhorar continuamente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 04 -->
+  <section style="padding: 148px 0; background: var(--navy); text-align:center;">
+    <div class="container" style="max-width: 780px;">
+      <h2 style="font-size: 38px; color: var(--white);">Não fazemos marketing por fazer.</h2>
+      <div style="width:40px; height:1px; background:var(--turq); margin: 26px auto;"></div>
+      <p style="font-family:'Manrope',sans-serif; font-size: 16px; line-height:1.7; color: rgba(255,255,255,0.68); max-width: 480px; margin: 0 auto;">
+        Cada ação precisa ter um objetivo claro: aproximar seu negócio das pessoas certas.
+      </p>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 05 -->
+  <section id="como-funciona" style="padding: 112px 0;">
+    <div class="container" style="max-width: 780px;">
+      <span class="eyebrow">05 — Como funciona</span>
+      <h2 class="section-h" style="font-size: 34px; margin-top: 20px;">Um processo claro, do início ao resultado.</h2>
+      <div class="timeline" style="margin-top: 56px;">
+        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0s;">
+          <span class="num timeline-num" style="font-size:24px; min-width:44px;">01</span>
+          <div class="timeline-content">
+            <h3 style="font-size:18px;">Entendemos</h3>
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Ouvimos seu negócio, sua realidade e seus objetivos antes de propor qualquer ação.</p>
+          </div>
+        </div>
+        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0.1s;">
+          <span class="num timeline-num" style="font-size:24px; min-width:44px;">02</span>
+          <div class="timeline-content">
+            <h3 style="font-size:18px;">Planejamos</h3>
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Definimos a estratégia de site, tráfego e comunicação alinhada ao seu momento.</p>
+          </div>
+        </div>
+        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0.2s;">
+          <span class="num timeline-num" style="font-size:24px; min-width:44px;">03</span>
+          <div class="timeline-content">
+            <h3 style="font-size:18px;">Executamos</h3>
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Colocamos site, campanhas e estrutura de atendimento no ar.</p>
+          </div>
+        </div>
+        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); border-bottom: 1px solid var(--gray-l); animation-delay:0.3s;">
+          <span class="num timeline-num" style="font-size:24px; min-width:44px;">04</span>
+          <div class="timeline-content">
+            <h3 style="font-size:18px;">Otimizamos</h3>
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Acompanhamos os resultados e ajustamos continuamente para melhorar a performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 06 -->
+  <section id="para-quem" style="padding: 112px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
+    <div class="container grid-2" style="display:grid; grid-template-columns: 0.95fr 1.05fr; gap: 72px; align-items:center;">
+      <div>
+        <span class="eyebrow">06 — Para quem é</span>
+        <h2 class="section-h" style="font-size: 34px; margin-top: 20px;">Especialistas em negócios da saúde.</h2>
+        <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; line-height:1.75; color: var(--gray-t); margin-top: 22px; max-width: 440px;">
+          Atendemos profissionais e negócios em diferentes frentes da saúde — de consultórios individuais a clínicas completas.
+        </p>
+        <div style="margin-top: 40px; border-top: 1px solid var(--gray-l);">
+          <div class="specialty-row"><span class="pilltext">Medicina</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext">Odontologia</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext">Estética</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext">Clínicas</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext">Fisioterapia</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext">Nutrição</span><span class="specialty-arrow" aria-hidden="true">→</span></div>
+          <div class="specialty-row"><span class="pilltext" style="color:var(--gray-t);">E entre outras áreas da saúde</span></div>
+        </div>
+      </div>
+      <div class="photo-frame" style="aspect-ratio: 4/5;">
+        <img src="assets/img/recepcao-clinica.jpg" width="1100" height="1375" alt="Recepção de clínica de saúde, ambiente premium" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="padding: 112px 0;">
+    <div class="container" style="max-width: 760px;">
+      <span class="eyebrow">Perguntas frequentes</span>
+      <h2 class="section-h" style="font-size: 32px; margin-top: 20px;">Ainda com dúvidas?</h2>
+      <div style="margin-top: 48px; border-top: 1px solid var(--gray-l);">
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="0" onclick="toggleFaq(0)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">O que a VYRA faz?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-0" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Ajudamos negócios da saúde a construir uma presença digital profissional e a atrair mais pacientes, combinando site, estratégia e tráfego pago.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="1" onclick="toggleFaq(1)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês criam sites?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-1" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Sim. Sites profissionais desenvolvidos para apresentar seu negócio, seus serviços e diferenciais com clareza.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="2" onclick="toggleFaq(2)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês trabalham com anúncios?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-2" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Sim, trabalhamos com tráfego pago estratégico para colocar seu negócio diante de pessoas com potencial real de se tornarem pacientes.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="3" onclick="toggleFaq(3)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês fazem Meta Ads e Google Ads?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-3" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Sim, atuamos com campanhas no Instagram, Facebook e Google, de acordo com o que fizer mais sentido para o seu negócio.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="4" onclick="toggleFaq(4)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Preciso já ter um site?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-4" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Não. A VYRA pode estruturar sua presença digital desde o início, mesmo que você ainda não tenha nada online.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="5" onclick="toggleFaq(5)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês atendem quais áreas da saúde?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-5" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Atendemos médicos, dentistas, clínicas, profissionais de estética e outros profissionais da saúde — a lista de áreas segue crescendo conforme atendemos novos segmentos.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="6" onclick="toggleFaq(6)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Quanto custa contratar a VYRA?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-6" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">[valor a definir de acordo com o escopo do seu projeto]</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="7" onclick="toggleFaq(7)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Em quanto tempo o site fica pronto?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-7" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">[prazo a definir de acordo com o processo real da VYRA]</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="8" onclick="toggleFaq(8)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês garantem resultados?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-8" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Não prometemos número de pacientes ou faturamento. Tráfego pago envolve variáveis — trabalhamos com estratégia, estrutura, acompanhamento e otimização contínua.</p>
+          </div>
+        </div>
+        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
+          <button class="faq-btn" data-idx="9" onclick="toggleFaq(9)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
+            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">A VYRA respeita as normas de publicidade da minha profissão?</span>
+            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
+          </button>
+          <div class="faq-answer" id="faq-answer-9" style="display:none;">
+            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Sim. A comunicação é desenvolvida considerando as diretrizes de publicidade do seu conselho profissional. A VYRA não presta aconselhamento jurídico — você continua responsável por validar sua comunicação quando necessário.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section style="padding: 132px 0; background: var(--navy); text-align:center;">
+    <div class="container" style="max-width: 620px;">
+      <h2 style="font-size: 36px; color: var(--white);">Vamos transformar sua<br>presença digital?</h2>
+      <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; color: rgba(255,255,255,0.68); margin-top: 22px;">Seu próximo paciente pode estar procurando por você agora.</p>
+      <div style="margin-top: 38px;">
+        <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20Sa%C3%BAde%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary on-dark">Falar com a VYRA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="padding: 64px 0 40px; background: var(--white);">
+    <div class="container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap: 40px; flex-wrap:wrap; padding-bottom: 40px; border-bottom: 1px solid var(--gray-l);">
+        <div>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 40 40" fill="none">
+              <path d="M4 6 L15 6 L22 20 L17 20 Z" fill="var(--navy)"></path>
+              <path d="M25 6 L36 6 L22 34 L17 34 Z" fill="var(--turq)"></path>
+            </svg>
+            <div style="line-height:1;">
+              <div style="font-family:'Fraunces',serif; font-size:17px; font-weight:500; color:var(--navy);">VYRA Saúde</div>
+            </div>
+          </div>
+          <p style="font-family:'Manrope',sans-serif; font-size:10.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--gray-t); margin-top:12px;">Estratégia que cuida e transforma</p>
+        </div>
+        <div style="display:flex; gap:64px; flex-wrap:wrap;">
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <span style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--gray-t);">Navegação</span>
+            <a href="#hero" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">Início</a>
+            <a href="#solucoes" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">Soluções</a>
+            <a href="#faq" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">FAQ</a>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <span style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--gray-t);">Contato</span>
+            <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20Sa%C3%BAde%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">WhatsApp</a>
+            <a href="mailto:vyra.trafego@gmail.com" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">vyra.trafego@gmail.com</a>
+            <a href="https://instagram.com/vyra_ads" target="_blank" rel="noopener" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">@vyra_ads</a>
+          </div>
+        </div>
+      </div>
+      <p style="font-family:'Manrope',sans-serif; font-size:12.5px; color:var(--gray-t); margin-top: 28px;">© VYRA Saúde. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</div>
+<script>
+  function toggleMenu() {
+    var nav = document.getElementById('mobileNav');
+    var btn = document.getElementById('menuBtn');
+    var open = nav.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function closeMenu() {
+    document.getElementById('mobileNav').classList.remove('open');
+    document.getElementById('menuBtn').classList.remove('open');
+    document.getElementById('menuBtn').setAttribute('aria-expanded', 'false');
+  }
+  function toggleFaq(idx) {
+    var answer = document.getElementById('faq-answer-' + idx);
+    var btn = document.querySelector('.faq-btn[data-idx="' + idx + '"]');
+    var chevron = btn.querySelector('.faq-chevron');
+    var isOpen = answer.style.display === 'block';
+    document.querySelectorAll('.faq-answer').forEach(function(el) { el.style.display = 'none'; });
+    document.querySelectorAll('.faq-btn').forEach(function(el) { el.setAttribute('aria-expanded', 'false'); });
+    document.querySelectorAll('.faq-chevron').forEach(function(el) { el.classList.remove('open'); });
+    if (!isOpen) {
+      answer.style.display = 'block';
+      btn.setAttribute('aria-expanded', 'true');
+      chevron.classList.add('open');
+    }
+  }
+</script>
+</body>
+</html>
