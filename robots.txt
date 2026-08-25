@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vyra-saude.netlify.app/sitemap.xml
+Sitemap: https://resonant-meringue-6f1469.netlify.app/sitemap.xml
