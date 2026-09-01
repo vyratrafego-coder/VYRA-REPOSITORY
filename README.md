@@ -1,6 +1,6 @@
-# VYRA Saúde
+# VYRA ADS
 
-Site institucional (uma página) da VYRA Saúde — agência de marketing e performance para negócios da saúde.
+Site institucional (uma página) da VYRA ADS — gestão de tráfego pago, criação de anúncios e estratégia digital.
 
 Site estático puro (HTML/CSS/JS, sem build). `index.html` é o ponto de entrada; imagens ficam em `assets/img/`.
 
