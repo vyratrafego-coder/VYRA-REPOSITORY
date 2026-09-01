@@ -6,7 +6,7 @@ Site estático puro (HTML/CSS/JS, sem build). `index.html` é o ponto de entrada
 
 ## Deploy
 
-Publicado no Netlify: https://vyrasaude.netlify.app
+Publicado no Netlify: https://vyra-ads.netlify.app
 
 `netlify.toml` define a pasta de publicação (`.`) e headers de cache/segurança.
 
