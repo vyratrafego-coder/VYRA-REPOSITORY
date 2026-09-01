@@ -1,566 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VYRA ADS — Gestão de tráfego pago para o seu negócio</title>
-<meta name="description" content="Gestão de tráfego pago, criação de anúncios e estratégia digital para negócios que querem atrair mais clientes todos os dias.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="VYRA ADS — tráfego pago pensado para negócios que querem ser encontrados pelas pessoas certas.">
+<title>VYRA ADS | Seu negócio pode ser excelente. Mas quem está vendo?</title>
 <link rel="canonical" href="https://vyra-saude.netlify.app/">
-<meta name="theme-color" content="#071A33">
+<meta name="theme-color" content="#061a45">
 
 <!-- Open Graph / social preview (usado pelo WhatsApp, Instagram, etc.) -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="VYRA ADS">
-<meta property="og:title" content="VYRA ADS — Gestão de tráfego pago para o seu negócio">
-<meta property="og:description" content="Gestão de tráfego pago, criação de anúncios e estratégia digital para negócios que querem atrair mais clientes todos os dias.">
+<meta property="og:title" content="VYRA ADS | Seu negócio pode ser excelente. Mas quem está vendo?">
+<meta property="og:description" content="VYRA ADS — tráfego pago pensado para negócios que querem ser encontrados pelas pessoas certas.">
 <meta property="og:url" content="https://vyra-saude.netlify.app/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="VYRA ADS — Gestão de tráfego pago para o seu negócio">
-<meta name="twitter:description" content="Gestão de tráfego pago, criação de anúncios e estratégia digital para negócios que querem atrair mais clientes todos os dias.">
+<meta property="og:image" content="https://vyra-saude.netlify.app/assets/img/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VYRA ADS | Seu negócio pode ser excelente. Mas quem está vendo?">
+<meta name="twitter:description" content="VYRA ADS — tráfego pago pensado para negócios que querem ser encontrados pelas pessoas certas.">
+<meta name="twitter:image" content="https://vyra-saude.netlify.app/assets/img/hero.jpg">
 
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "VYRA ADS",
-  "description": "Gestão de tráfego pago, criação de anúncios e estratégia digital para negócios que querem atrair mais clientes.",
+  "description": "Tráfego pago pensado para negócios que querem ser encontrados pelas pessoas certas.",
   "url": "https://vyra-saude.netlify.app/",
   "email": "vyra.trafego@gmail.com",
   "telephone": "+5511947813814",
   "areaServed": "BR",
   "sameAs": ["https://instagram.com/vyra_ads"],
   "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gestão de tráfego pago (Meta Ads e Google Ads)" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Criação de anúncios e criativos" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratégia e otimização de campanhas" } }
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gestão de tráfego pago" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Criativos e anúncios" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dados e otimização de campanhas" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estratégia digital" } }
   ]
 }
 </script>
 <style>
-    :root, body {
-      --navy: #071A33;
-      --navy-2: #0B2945;
-      --turq: #35B8B5;
-      --teal: #269C9D;
-      --white: #FFFFFF;
-      --offwhite: #F7F9F8;
-      --gray-l: #EEF2F2;
-      --gray-t: #667085;
-      --teal-ink: #1B7274;
-    }
-    html { scroll-behavior: smooth; }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--white);
-      color: var(--navy);
-      font-family: "Manrope", system-ui, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-    h1, h2, h3, .serif {
-      font-family: "Fraunces", Georgia, serif;
-      font-weight: 480;
-      line-height: 1.12;
-      margin: 0;
-      letter-spacing: -0.01em;
-      color: var(--navy);
-    }
-    p { margin: 0; }
-    a { color: inherit; text-decoration: none; }
-    .container { max-width: 1180px; margin: 0 auto; padding: 0 40px; }
-    .eyebrow {
-      display: inline-flex; align-items: center; gap: 10px;
-      font-family: "Manrope", sans-serif;
-      font-size: 11.5px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
-      color: var(--teal-ink);
-    }
-    .eyebrow.on-dark { color: var(--turq); }
-    .eyebrow::before { content: ""; display: inline-block; width: 22px; height: 1px; background: var(--turq); }
-    .btn-primary {
-      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
-      background: var(--navy); color: var(--white);
-      font-family: "Manrope", sans-serif;
-      font-weight: 600; font-size: 14.5px; letter-spacing: 0.01em;
-      padding: 15px 26px; border-radius: 3px; border: none; cursor: pointer;
-      transition: background 0.2s ease;
-    }
-    .btn-primary:hover { background: var(--navy-2); }
-    .btn-primary.on-dark { background: var(--turq); color: var(--navy); }
-    .btn-primary.on-dark:hover { background: var(--white); }
-    nav a { font-family: "Manrope", sans-serif; color: var(--navy); font-weight: 500; font-size: 14px; padding-bottom: 4px; border-bottom: 1px solid transparent; transition: border-color 0.2s ease, color 0.2s ease; }
-    nav a:hover { color: var(--teal); border-bottom: 1px solid var(--teal); }
-    .num {
-      font-family: "Fraunces", Georgia, serif;
-      font-weight: 400; font-size: 15px; color: var(--teal-ink);
-      letter-spacing: 0.02em;
-    }
-    .timeline-num { text-align:center; position:relative; z-index:1; }
-    .timeline { position:relative; }
-    .timeline::before {
-      content: ""; position: absolute; left: 22px; top: 0; bottom: 0; width: 1px;
-      background: var(--gray-l);
-    }
-    .timeline-content { transition: transform 0.25s ease; }
-    .timeline-row:hover .timeline-content { transform: translateX(8px); }
-    .service-icon {
-      width: 44px; height: 44px; display:flex; align-items:center; justify-content:center;
-      border: 1px solid var(--gray-l); border-radius: 3px; background: var(--white);
-    }
-    .fade-up { animation: fadeUp 0.7s ease both; }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-    .flow-word { font-family:"Manrope", sans-serif; font-weight:800; font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy); white-space: nowrap; }
-    .flow-arrow-line { flex: 1; height: 1px; background: var(--gray-l); position: relative; min-width: 40px; }
-    .flow-arrow-line::after { content: "→"; position: absolute; right: -2px; top: 50%; transform: translateY(-50%); color: var(--turq); font-size: 16px; }
-    .faq-chevron.open { transform: rotate(180deg); }
-    .menu-btn {
-      display: none; flex-direction: column; justify-content: center; gap: 5px;
-      width: 34px; height: 34px; background: none; border: none; cursor: pointer; padding: 0;
-    }
-    .menu-btn span { display:block; width: 100%; height: 2px; background: var(--navy); transition: transform 0.2s ease, opacity 0.2s ease; }
-    .menu-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .menu-btn.open span:nth-child(2) { opacity: 0; }
-    .menu-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-    #mobileNav {
-      display: none; flex-direction: column; gap: 2px;
-      background: var(--white); border-bottom: 1px solid var(--gray-l);
-      padding: 8px 22px 20px;
-    }
-    #mobileNav a {
-      font-family: "Manrope", sans-serif; font-weight: 600; font-size: 15.5px; color: var(--navy);
-      padding: 13px 2px; border-bottom: 1px solid var(--gray-l);
-    }
-    #mobileNav.open { display: flex; }
-
-    /* stat card (hero) */
-    .stat-card {
-      background: var(--white); border: 1px solid var(--gray-l); border-radius: 4px;
-      padding: 32px; box-shadow: 0 24px 48px -24px rgba(7,26,51,0.14);
-    }
-    .stat-card-head { display:flex; align-items:center; justify-content:space-between; }
-    .stat-card-label { font-family:"Manrope",sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--gray-t); }
-    .stat-dot { width:8px; height:8px; border-radius:50%; background:var(--turq); box-shadow: 0 0 0 4px rgba(53,184,181,0.16); }
-    .stat-bars { display:flex; align-items:flex-end; gap:8px; height:110px; margin-top:26px; }
-    .stat-bars .bar { flex:1; background: var(--gray-l); border-radius: 2px 2px 0 0; }
-    .stat-bars .bar:last-child { background: var(--turq); }
-    .stat-rows { margin-top: 26px; border-top: 1px solid var(--gray-l); padding-top: 20px; display:flex; flex-direction:column; gap:14px; }
-    .stat-row { display:flex; align-items:center; justify-content:space-between; font-family:"Manrope",sans-serif; }
-    .stat-row span { font-size: 13.5px; color: var(--gray-t); }
-    .stat-row strong { font-family:"Fraunces",serif; font-size: 18px; font-weight:500; color: var(--navy); }
-
-    /* results grid */
-    .result-tile { padding: 30px 26px; border: 1px solid var(--gray-l); background: var(--white); }
-    .result-num { font-family:"Fraunces",serif; font-size: 40px; font-weight:480; color: var(--navy); line-height:1; }
-    .result-label { font-family:"Manrope",sans-serif; font-size: 13px; color: var(--gray-t); margin-top: 12px; }
-
-    /* contact rows on dark */
-    .contact-row { display:flex; align-items:center; gap:12px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,0.12); }
-    .contact-row:last-child { border-bottom: 1px solid rgba(255,255,255,0.12); }
-    .contact-row span.label { font-family:"Manrope",sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color: var(--turq); min-width: 96px; text-align:left; }
-    .contact-row a, .contact-row span.value { font-family:"Manrope",sans-serif; font-size:15px; color: rgba(255,255,255,0.88); }
-    .contact-row a:hover { color: var(--turq); }
-
-    @media (max-width: 900px) {
-      .grid-2 { grid-template-columns: 1fr !important; }
-      .grid-3 { grid-template-columns: 1fr !important; }
-      .grid-4 { grid-template-columns: 1fr 1fr !important; }
-      .hide-mobile { display: none !important; }
-      .menu-btn { display: flex; }
-      h1.hero-h { font-size: 38px !important; }
-      h2.section-h { font-size: 30px !important; }
-      .container { padding: 0 22px; }
-      .flow-row { flex-direction: column !important; align-items: flex-start !important; gap: 14px !important; }
-      .flow-arrow-line { display:none; }
-      .contact-row { flex-direction: column; align-items:flex-start; gap:4px; }
-    }
+:root{--navy:#061a45;--navy2:#031331;--blue:#2674e8;--cyan:#17c5cf;--ink:#0a1d46;--muted:#65728a;--paper:#f5f6f8;--white:#fff;--line:#d9dee7;--max:1240px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}a{text-decoration:none;color:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+header{height:76px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;position:sticky;top:0;z-index:20}.nav{display:flex;align-items:center;justify-content:space-between}.logo{width:137px;height:auto;display:block}.links{display:flex;align-items:center;gap:32px;font-size:14px;font-weight:750}.links a{color:#26324a}.links a:hover{color:var(--blue)}.navbtn{background:var(--navy);color:#fff;padding:13px 19px;border-radius:7px}.navbtn:hover{background:var(--blue)}
+/* HERO */
+.hero{background:var(--navy);color:#fff;padding:56px 0 54px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:64px;align-items:center}.hero-copy{padding:12px 0 8px}.kicker,.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:900;color:var(--blue);margin-bottom:19px}.hero h1{font-size:clamp(3.9rem,6.8vw,6.9rem);line-height:.86;letter-spacing:-.07em;font-weight:950;max-width:700px}.hero h1 em{font-style:normal;color:#69a3ff}.hero-copy>p{font-size:16px;line-height:1.6;color:#c9d4e7;max-width:550px;margin-top:30px}.hero-cta{display:inline-flex;align-items:center;gap:16px;margin-top:30px;background:var(--blue);color:#fff;padding:16px 21px;border-radius:7px;font-weight:850}.hero-cta:hover{background:#3b85f3}.arrow{font-size:21px}.hero-photo{height:590px;border-radius:12px;overflow:hidden;position:relative;background:#17335e}.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,26,69,.08),transparent 55%);pointer-events:none}.photo-tag{position:absolute;z-index:2;left:20px;bottom:20px;background:#fff;color:var(--navy);padding:12px 15px;border-radius:5px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:900}
+.statement{background:#fff;border-bottom:1px solid var(--line);padding:21px 0}.statement-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}.statement strong{font-size:12px;letter-spacing:.16em;text-transform:uppercase}.statement span{font-size:13px;color:var(--muted)}
+/* DESAFIO */
+.section{padding:108px 0}.intro{display:grid;grid-template-columns:.82fr 1.18fr;gap:95px}.intro h2{font-size:clamp(3.2rem,5.4vw,5.9rem);line-height:.88;letter-spacing:-.065em;font-weight:950}.intro h2 span{color:var(--blue)}.lead{font-size:23px;line-height:1.32;color:#172744;max-width:720px}.bodycopy{margin-top:22px;color:var(--muted);max-width:690px}.list{margin-top:38px;display:flex;flex-direction:column;gap:10px}.list-row{display:grid;grid-template-columns:54px 1fr 1fr;gap:20px;align-items:center;background:#fff;border:1px solid #e8ebf0;border-radius:10px;padding:18px 20px;box-shadow:0 8px 25px rgba(6,26,69,.035)}.list-icon{width:34px;height:34px;border-radius:9px;background:var(--navy);display:grid;place-items:center;color:#69a3ff;font-weight:900;font-size:16px}.list-row h3{font-size:17px;line-height:1.2;color:var(--navy)}.list-row p{font-size:13px;color:var(--muted);line-height:1.45}
+/* IMAGEM AZUL */
+.image-band{padding:0 0 108px}.image-frame{position:relative;height:470px;border-radius:14px;overflow:hidden;background:var(--navy)}.image-frame img{width:100%;height:100%;object-fit:cover;display:block}.image-frame:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,19,49,.75) 0%,rgba(3,19,49,.25) 46%,rgba(3,19,49,.05) 75%)}.image-copy{position:absolute;z-index:2;left:48px;bottom:42px;max-width:560px;color:#fff}.image-copy small{display:block;color:#79aaff;letter-spacing:.18em;text-transform:uppercase;font-size:10px;font-weight:900;margin-bottom:13px}.image-copy h2{font-size:clamp(2.5rem,4.2vw,4.8rem);line-height:.9;letter-spacing:-.06em}.image-copy h2 span{color:#69a3ff}.image-copy p{margin-top:16px;color:#e2e8f3;max-width:520px}
+/* SERVIÇOS */
+.services{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.services-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:50px}.services h2,.process h2,.contact h2{font-size:clamp(3rem,5.3vw,6rem);line-height:.88;letter-spacing:-.065em;font-weight:950}.services h2 span{color:var(--blue)}.services-head p{max-width:390px;color:var(--muted);font-size:15px}.service-list{border-top:1px solid var(--navy)}.service{display:grid;grid-template-columns:58px 1fr 1.15fr 45px;gap:22px;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}.service-num{font-size:11px;font-weight:900;color:var(--blue);letter-spacing:.12em}.service h3{font-size:23px;color:var(--navy)}.service p{font-size:14px;color:var(--muted)}.service-arrow{text-align:right;font-size:24px;color:var(--blue)}
+/* PROCESSO */
+.process{background:var(--paper)}.process-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:95px}.process-intro p{margin-top:23px;max-width:440px;color:var(--muted)}.steps{border-top:1px solid var(--navy)}.step{display:grid;grid-template-columns:55px 1fr;gap:20px;padding:28px 0;border-bottom:1px solid var(--line)}.step b{font-size:11px;color:var(--blue)}.step h3{font-size:22px;color:var(--navy)}.step p{margin-top:6px;color:var(--muted);font-size:14px;max-width:650px}
+/* SOBRE / VYRA */
+.about{background:var(--navy);color:#fff;padding:95px 0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.about-media{height:490px;border-radius:12px;overflow:hidden}.about img{width:100%;height:100%;object-fit:cover;display:block}.about h2{color:#fff;font-size:clamp(3rem,5vw,5.7rem);line-height:.88;letter-spacing:-.065em}.about h2 span{color:#69a3ff}.about p{margin-top:25px;color:#c9d4e7;max-width:550px}.about .eyebrow{color:#69a3ff}
+/* CTA */
+.contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:80px;align-items:end}.contact h2{max-width:780px}.contact-copy{margin-top:23px;color:var(--muted);max-width:610px}.contact-box{border-top:1px solid var(--navy);padding-top:19px}.contact-box small{display:block;text-transform:uppercase;letter-spacing:.15em;color:var(--blue);font-size:10px;font-weight:900;margin-bottom:13px}.contact-box p{color:var(--navy);font-size:21px;font-weight:800;margin-bottom:21px}.bigbutton{display:flex;justify-content:space-between;align-items:center;background:var(--blue);color:#fff;padding:20px 21px;border-radius:7px;font-weight:850}.bigbutton:hover{background:var(--navy)}
+footer{background:var(--navy2);color:#aebbd0;padding:28px 0}.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:12px}.foot .logo{width:120px;filter:none}
+@media(max-width:900px){.links a:not(.navbtn){display:none}.hero-grid,.intro,.process-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{gap:35px}.hero-photo{height:470px}.hero h1{font-size:clamp(4rem,12vw,6.5rem)}.services-head,.statement-inner{align-items:start;flex-direction:column}.list-row{grid-template-columns:45px 1fr}.list-row p{grid-column:2}.image-frame{height:430px}.service{grid-template-columns:50px 1fr 40px}.service p{grid-column:2}.service-arrow{grid-column:3;grid-row:1}.about-media{height:390px}.section{padding:80px 0}}
+@media(max-width:600px){.wrap{width:min(100% - 28px,var(--max))}header{height:70px}.logo{width:116px}.navbtn{padding:11px 13px;font-size:12px}.hero{padding:40px 0 42px}.hero-grid{gap:30px}.hero h1{font-size:clamp(3.55rem,17vw,5rem)}.hero-copy>p{font-size:15px}.hero-photo{height:360px}.photo-tag{font-size:9px;left:12px;bottom:12px}.statement{padding:18px 0}.section{padding:67px 0}.intro{gap:43px}.lead{font-size:19px}.list-row{padding:16px}.list-row h3{font-size:15px}.list-row p{font-size:12px}.image-band{padding-bottom:67px}.image-frame{height:390px}.image-copy{left:25px;right:20px;bottom:28px}.image-copy h2{font-size:2.8rem}.services-head{margin-bottom:38px}.service{grid-template-columns:42px 1fr 30px}.service h3{font-size:19px}.service p{font-size:12px}.process-grid,.contact-grid{gap:44px}.about{padding:67px 0}.about-media{height:310px}.foot{align-items:start;flex-direction:column}}
 </style>
 </head>
 <body>
-<div style="width:100%; overflow-x: hidden; background: var(--white);">
-
-  <!-- HEADER -->
-  <header style="background: var(--white); border-bottom: 1px solid var(--gray-l);">
-    <div class="container" style="display:flex; align-items:center; justify-content:space-between; height: 88px;">
-      <div style="display:flex; align-items:center; gap:11px;">
-        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 40 40" fill="none">
-          <path d="M4 6 L15 6 L22 20 L17 20 Z" fill="var(--navy)"></path>
-          <path d="M25 6 L36 6 L22 34 L17 34 Z" fill="var(--turq)"></path>
-        </svg>
-        <div style="line-height:1;">
-          <div style="font-family:'Fraunces',serif; font-size:19px; font-weight:500; letter-spacing:0.02em; color:var(--navy);">VYRA</div>
-          <div style="font-family:'Manrope',sans-serif; font-size:8.5px; font-weight:700; letter-spacing:0.2em; color:var(--teal); margin-top:2px;">ADS</div>
-        </div>
-      </div>
-      <nav class="hide-mobile" style="display:flex; align-items:center; gap:38px;">
-        <a href="#hero">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#resultados">Resultados</a>
-        <a href="#como-funciona">Como funciona</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <div style="display:flex; align-items:center; gap:14px;">
-        <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary" style="padding: 12px 22px; font-size: 13.5px;">Falar com a VYRA</a>
-        <button class="menu-btn" id="menuBtn" onclick="toggleMenu()" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-    <nav id="mobileNav">
-      <a href="#hero" onclick="closeMenu()">Início</a>
-      <a href="#servicos" onclick="closeMenu()">Serviços</a>
-      <a href="#resultados" onclick="closeMenu()">Resultados</a>
-      <a href="#como-funciona" onclick="closeMenu()">Como funciona</a>
-      <a href="#contato" onclick="closeMenu()">Contato</a>
-    </nav>
-  </header>
-
-  <!-- HERO -->
-  <section id="hero" style="padding: 88px 0 108px;">
-    <div class="container grid-2" style="display:grid; grid-template-columns: 1.02fr 0.98fr; gap: 72px; align-items:center;">
-      <div class="fade-up">
-        <span class="eyebrow">VYRA ADS</span>
-        <p style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--gray-t); margin-top:14px;">Tráfego pago com estratégia</p>
-        <h1 class="hero-h" style="font-size: 54px; margin-top: 26px;">Mais clientes para o<br>seu negócio, todos os dias.</h1>
-        <p style="font-family:'Manrope',sans-serif; font-size: 17px; line-height: 1.65; color: var(--gray-t); margin-top: 26px; max-width: 440px;">
-          Gerimos seus anúncios no Meta Ads e Google Ads do início ao fim — do criativo à otimização — para colocar o seu negócio na frente de quem está pronto para comprar.
-        </p>
-        <div style="margin-top: 38px;">
-          <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary">Quero atrair mais clientes</a>
-        </div>
-      </div>
-      <div class="stat-card fade-up">
-        <div class="stat-card-head">
-          <span class="stat-card-label">Campanha ativa</span>
-          <span class="stat-dot"></span>
-        </div>
-        <div class="stat-bars">
-          <div class="bar" style="height:32%"></div>
-          <div class="bar" style="height:48%"></div>
-          <div class="bar" style="height:40%"></div>
-          <div class="bar" style="height:64%"></div>
-          <div class="bar" style="height:52%"></div>
-          <div class="bar" style="height:78%"></div>
-          <div class="bar" style="height:100%"></div>
-        </div>
-        <div class="stat-rows">
-          <div class="stat-row"><span>Impressões</span><strong>3.887</strong></div>
-          <div class="stat-row"><span>CTR (taxa de clique)</span><strong>2,08%</strong></div>
-          <div class="stat-row"><span>CPC (custo por clique)</span><strong>R$ 0,38</strong></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 01 -->
-  <section style="padding: 100px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
-    <div class="container" style="max-width: 880px;">
-      <span class="eyebrow">01</span>
-      <h2 class="section-h" style="font-size: 36px; margin-top: 20px;">Antes do cliente chegar até você, ele já viu um anúncio.</h2>
-      <p style="font-family:'Manrope',sans-serif; font-size: 16px; line-height:1.7; color: var(--gray-t); margin-top: 22px; max-width: 620px;">
-        Sua presença no Instagram, Facebook e Google — e a forma como você aparece nesses lugares — define se a pessoa vai confiar em você ou seguir para o próximo anúncio.
-      </p>
-      <div class="flow-row" style="display:flex; align-items:center; gap: 22px; margin-top: 56px;">
-        <span class="flow-word">Anúncio</span>
-        <span class="flow-arrow-line"></span>
-        <span class="flow-word">Confiança</span>
-        <span class="flow-arrow-line"></span>
-        <span class="flow-word" style="color:var(--teal);">Contato</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 02 -->
-  <section style="padding: 112px 0;">
-    <div class="container grid-2" style="display:grid; grid-template-columns: 0.95fr 1.05fr; gap: 72px; align-items:center;">
-      <div class="stat-card" style="aspect-ratio: 1/1; display:flex; flex-direction:column; justify-content:center;">
-        <div class="stat-rows" style="border-top:none; padding-top:0; gap:22px;">
-          <div class="stat-row"><span>Investimento diário</span><strong>a partir de R$ 15</strong></div>
-          <div class="stat-row"><span>Plataformas</span><strong>Meta &amp; Google</strong></div>
-          <div class="stat-row"><span>Acompanhamento</span><strong>contínuo</strong></div>
-          <div class="stat-row"><span>Relatórios</span><strong>claros e simples</strong></div>
-        </div>
-      </div>
-      <div>
-        <span class="eyebrow">02</span>
-        <h2 class="section-h" style="font-size: 34px; margin-top: 20px;">Você cuida do seu negócio.<br>A gente cuida do seu tráfego.</h2>
-        <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; line-height:1.75; color: var(--gray-t); margin-top: 24px; max-width: 460px;">
-          Enquanto você foca no atendimento e nas vendas, a VYRA cuida de criativos, segmentação, orçamento e otimização das suas campanhas — sem enrolação e sem promessas irreais.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 03 — SERVIÇOS -->
-  <section id="servicos" style="padding: 112px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
-    <div class="container">
-      <span class="eyebrow">03 — Serviços</span>
-      <h2 class="section-h" style="font-size: 34px; margin-top: 20px; max-width: 640px;">O que a VYRA constrói para o seu negócio.</h2>
-      <div class="grid-3" style="display:grid; grid-template-columns: repeat(3, 1fr); margin-top: 64px; gap: 8px;">
-        <div style="padding: 0 32px 0 0;">
-          <div class="service-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-7-7 18-2-8-8-2z"></path></svg>
-          </div>
-          <h3 style="font-size: 21px; margin-top:20px;">Gestão de tráfego pago</h3>
-          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Campanhas no Meta Ads e Google Ads, configuradas e geridas de ponta a ponta para colocar seu negócio na frente do público certo.</p>
-        </div>
-        <div style="padding: 0 32px; border-left: 1px solid var(--gray-l);">
-          <div class="service-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
-          </div>
-          <h3 style="font-size: 21px; margin-top:20px;">Criação de anúncios</h3>
-          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Criativos, textos e páginas de destino pensados para gerar cliques e conversar de verdade com quem vê o anúncio.</p>
-        </div>
-        <div style="padding: 0 0 0 32px; border-left: 1px solid var(--gray-l);">
-          <div class="service-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--navy)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="M7 15l4-4 3 3 5-6"></path></svg>
-          </div>
-          <h3 style="font-size: 21px; margin-top:20px;">Estratégia e otimização</h3>
-          <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:12px;">Acompanhamento constante dos resultados, com ajustes de público, orçamento e criativo para melhorar a performance.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 04 -->
-  <section style="padding: 148px 0; background: var(--navy); text-align:center;">
-    <div class="container" style="max-width: 780px;">
-      <h2 style="font-size: 38px; color: var(--white);">Não fazemos anúncio por fazer.</h2>
-      <div style="width:40px; height:1px; background:var(--turq); margin: 26px auto;"></div>
-      <p style="font-family:'Manrope',sans-serif; font-size: 16px; line-height:1.7; color: rgba(255,255,255,0.68); max-width: 480px; margin: 0 auto;">
-        Cada real investido precisa ter um objetivo claro: aproximar o seu negócio das pessoas certas.
-      </p>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 05 — COMO FUNCIONA -->
-  <section id="como-funciona" style="padding: 112px 0;">
-    <div class="container" style="max-width: 780px;">
-      <span class="eyebrow">05 — Como funciona</span>
-      <h2 class="section-h" style="font-size: 34px; margin-top: 20px;">Um processo claro, do início ao resultado.</h2>
-      <div class="timeline" style="margin-top: 56px;">
-        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0s;">
-          <span class="num timeline-num" style="font-size:24px; min-width:44px;">01</span>
-          <div class="timeline-content">
-            <h3 style="font-size:18px;">Entendemos</h3>
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Ouvimos seu negócio, sua realidade e seus objetivos antes de propor qualquer ação.</p>
-          </div>
-        </div>
-        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0.1s;">
-          <span class="num timeline-num" style="font-size:24px; min-width:44px;">02</span>
-          <div class="timeline-content">
-            <h3 style="font-size:18px;">Planejamos</h3>
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Definimos público, orçamento e criativos alinhados ao momento do seu negócio.</p>
-          </div>
-        </div>
-        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); animation-delay:0.2s;">
-          <span class="num timeline-num" style="font-size:24px; min-width:44px;">03</span>
-          <div class="timeline-content">
-            <h3 style="font-size:18px;">Executamos</h3>
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Colocamos as campanhas no ar e ativamos o atendimento para receber os contatos.</p>
-          </div>
-        </div>
-        <div class="timeline-row fade-up" style="display:flex; gap: 32px; align-items:flex-start; padding: 30px 0; border-top: 1px solid var(--gray-l); border-bottom: 1px solid var(--gray-l); animation-delay:0.3s;">
-          <span class="num timeline-num" style="font-size:24px; min-width:44px;">04</span>
-          <div class="timeline-content">
-            <h3 style="font-size:18px;">Otimizamos</h3>
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); margin-top:8px; max-width:520px;">Acompanhamos os resultados dia a dia e ajustamos continuamente para melhorar a performance.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SEÇÃO 06 — RESULTADOS -->
-  <section id="resultados" style="padding: 112px 0; background: var(--offwhite); border-top:1px solid var(--gray-l); border-bottom:1px solid var(--gray-l);">
-    <div class="container">
-      <span class="eyebrow">06 — Resultados</span>
-      <h2 class="section-h" style="font-size: 34px; margin-top: 20px; max-width: 640px;">Números que comprovam o trabalho.</h2>
-      <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; line-height:1.75; color: var(--gray-t); margin-top: 22px; max-width: 620px;">
-        Em uma campanha recente gerida pela VYRA, já nos primeiros dois dias de veiculação:
-      </p>
-      <div class="grid-4" style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--gray-l); margin-top: 48px; border: 1px solid var(--gray-l);">
-        <div class="result-tile">
-          <div class="result-num">3.887</div>
-          <div class="result-label">Impressões geradas</div>
-        </div>
-        <div class="result-tile">
-          <div class="result-num">2,08%</div>
-          <div class="result-label">Taxa de cliques (CTR)</div>
-        </div>
-        <div class="result-tile">
-          <div class="result-num">R$ 0,38</div>
-          <div class="result-label">Custo por clique (CPC)</div>
-        </div>
-        <div class="result-tile">
-          <div class="result-num">2 dias</div>
-          <div class="result-label">Para os primeiros resultados</div>
-        </div>
-      </div>
-      <p style="font-family:'Manrope',sans-serif; font-size: 13px; line-height:1.6; color: var(--gray-t); margin-top: 22px; max-width: 620px;">
-        Resultados variam de acordo com nicho, orçamento e objetivo da campanha — não trabalhamos com promessas fechadas de retorno.
-      </p>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" style="padding: 112px 0;">
-    <div class="container" style="max-width: 760px;">
-      <span class="eyebrow">Perguntas frequentes</span>
-      <h2 class="section-h" style="font-size: 32px; margin-top: 20px;">Ainda com dúvidas?</h2>
-      <div style="margin-top: 48px; border-top: 1px solid var(--gray-l);">
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="0" onclick="toggleFaq(0)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">O que a VYRA faz?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-0" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Gerimos campanhas de tráfego pago no Meta Ads e Google Ads, do criativo à otimização, para atrair mais clientes para o seu negócio.</p>
-          </div>
-        </div>
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="1" onclick="toggleFaq(1)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Preciso já ter anúncios rodando?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-1" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Não. A VYRA pode estruturar sua campanha desde o início, mesmo que você nunca tenha anunciado antes.</p>
-          </div>
-        </div>
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="2" onclick="toggleFaq(2)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Qual o investimento mínimo?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-2" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Trabalhamos com orçamentos a partir de R$ 15 por dia. O valor ideal depende do seu nicho e objetivo, e é definido junto com você.</p>
-          </div>
-        </div>
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="3" onclick="toggleFaq(3)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Para qual tipo de negócio a VYRA trabalha?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-3" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Atendemos comércio local, prestadores de serviço, lojas online e negócios de diferentes nichos que querem crescer com tráfego pago.</p>
-          </div>
-        </div>
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="4" onclick="toggleFaq(4)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Vocês garantem resultados?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-4" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">Não prometemos número fechado de vendas ou faturamento. Tráfego pago envolve variáveis — trabalhamos com estratégia, acompanhamento e otimização contínua.</p>
-          </div>
-        </div>
-        <div class="faq-item" style="border-bottom: 1px solid var(--gray-l);">
-          <button class="faq-btn" data-idx="5" onclick="toggleFaq(5)" aria-expanded="false" style="width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; background:none; border:none; padding:24px 2px; cursor:pointer; text-align:left;">
-            <span style="font-family:'Manrope',sans-serif; font-size:15.5px; font-weight:700; color:var(--navy);">Como funciona o contato inicial?</span>
-            <svg class="faq-chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2" stroke-linecap="round" style="transition: transform 0.2s ease; flex-shrink:0;"><path d="M6 9l6 6 6-6"></path></svg>
-          </button>
-          <div class="faq-answer" id="faq-answer-5" style="display:none;">
-            <p style="font-family:'Manrope',sans-serif; font-size:14.5px; line-height:1.7; color:var(--gray-t); padding: 0 2px 26px; max-width:640px;">É simples: você chama a gente no WhatsApp, contamos um pouco sobre o seu negócio e já te retornamos com uma proposta de estratégia.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO / CTA FINAL -->
-  <section id="contato" style="padding: 132px 0; background: var(--navy);">
-    <div class="container" style="max-width: 620px; text-align:center;">
-      <span class="eyebrow on-dark">Contato</span>
-      <h2 style="font-size: 36px; color: var(--white); margin-top: 20px;">Vamos colocar seu negócio<br>na frente de mais clientes?</h2>
-      <p style="font-family:'Manrope',sans-serif; font-size: 15.5px; color: rgba(255,255,255,0.68); margin-top: 22px;">Seu próximo cliente pode estar vendo um anúncio agora mesmo.</p>
-      <div style="margin-top: 38px;">
-        <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" class="btn-primary on-dark">Falar com a VYRA no WhatsApp</a>
-      </div>
-      <div style="margin-top: 56px; text-align:left;">
-        <div class="contact-row">
-          <span class="label">WhatsApp</span>
-          <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">+55 11 94781-3814</a>
-        </div>
-        <div class="contact-row">
-          <span class="label">E-mail</span>
-          <a href="mailto:vyra.trafego@gmail.com">vyra.trafego@gmail.com</a>
-        </div>
-        <div class="contact-row">
-          <span class="label">Instagram</span>
-          <a href="https://instagram.com/vyra_ads" target="_blank" rel="noopener">@vyra_ads</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer style="padding: 64px 0 40px; background: var(--white);">
-    <div class="container">
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap: 40px; flex-wrap:wrap; padding-bottom: 40px; border-bottom: 1px solid var(--gray-l);">
-        <div>
-          <div style="display:flex; align-items:center; gap:10px;">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 40 40" fill="none">
-              <path d="M4 6 L15 6 L22 20 L17 20 Z" fill="var(--navy)"></path>
-              <path d="M25 6 L36 6 L22 34 L17 34 Z" fill="var(--turq)"></path>
-            </svg>
-            <div style="line-height:1;">
-              <div style="font-family:'Fraunces',serif; font-size:17px; font-weight:500; color:var(--navy);">VYRA ADS</div>
-            </div>
-          </div>
-          <p style="font-family:'Manrope',sans-serif; font-size:10.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:var(--gray-t); margin-top:12px;">Tráfego pago com estratégia</p>
-        </div>
-        <div style="display:flex; gap:64px; flex-wrap:wrap;">
-          <div style="display:flex; flex-direction:column; gap:12px;">
-            <span style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--gray-t);">Navegação</span>
-            <a href="#hero" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">Início</a>
-            <a href="#servicos" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">Serviços</a>
-            <a href="#resultados" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">Resultados</a>
-            <a href="#faq" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">FAQ</a>
-          </div>
-          <div style="display:flex; flex-direction:column; gap:12px;">
-            <span style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--gray-t);">Contato</span>
-            <a href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">WhatsApp</a>
-            <a href="mailto:vyra.trafego@gmail.com" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">vyra.trafego@gmail.com</a>
-            <a href="https://instagram.com/vyra_ads" target="_blank" rel="noopener" style="font-family:'Manrope',sans-serif; font-size:14px; color:var(--navy);">@vyra_ads</a>
-          </div>
-        </div>
-      </div>
-      <p style="font-family:'Manrope',sans-serif; font-size:12.5px; color:var(--gray-t); margin-top: 28px;">© VYRA ADS. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-
-</div>
-<script>
-  function toggleMenu() {
-    var nav = document.getElementById('mobileNav');
-    var btn = document.getElementById('menuBtn');
-    var open = nav.classList.toggle('open');
-    btn.classList.toggle('open', open);
-    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  }
-  function closeMenu() {
-    document.getElementById('mobileNav').classList.remove('open');
-    document.getElementById('menuBtn').classList.remove('open');
-    document.getElementById('menuBtn').setAttribute('aria-expanded', 'false');
-  }
-  function toggleFaq(idx) {
-    var answer = document.getElementById('faq-answer-' + idx);
-    var btn = document.querySelector('.faq-btn[data-idx="' + idx + '"]');
-    var chevron = btn.querySelector('.faq-chevron');
-    var isOpen = answer.style.display === 'block';
-    document.querySelectorAll('.faq-answer').forEach(function(el) { el.style.display = 'none'; });
-    document.querySelectorAll('.faq-btn').forEach(function(el) { el.setAttribute('aria-expanded', 'false'); });
-    document.querySelectorAll('.faq-chevron').forEach(function(el) { el.classList.remove('open'); });
-    if (!isOpen) {
-      answer.style.display = 'block';
-      btn.setAttribute('aria-expanded', 'true');
-      chevron.classList.add('open');
-    }
-  }
-</script>
-</body>
-</html>
+<header><div class="wrap nav"><a href="#inicio" aria-label="VYRA ADS"><img class="logo" src="assets/img/logo.png" alt="VYRA ADS"></a><nav class="links"><a href="#negocio">O problema</a><a href="#servicos">O que fazemos</a><a href="#processo">Como trabalhamos</a><a class="navbtn" href="#contato">Falar com a VYRA</a></nav></div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap hero-grid"><div class="hero-copy"><div class="kicker">TRÁFEGO PAGO PARA QUEM JÁ TEM UM NEGÓCIO</div><h1>Seu negócio pode ser excelente.<br><em>Mas quem está vendo?</em></h1><p>Seu cliente está procurando. A pergunta é se ele está encontrando você.</p><p>A VYRA coloca sua empresa na frente das pessoas certas, com estratégia de mídia, criativos e otimização pensados para gerar resultado.</p><a class="hero-cta" href="#contato">Quero fazer meu negócio aparecer <span class="arrow">→</span></a></div><div class="hero-photo"><img src="assets/img/hero.jpg" alt="Empresário em frente ao seu negócio"><div class="photo-tag">O negócio existe. Agora faça ele ser encontrado.</div></div></div></section>
+<div class="statement"><div class="wrap statement-inner"><strong>Estratégia antes do anúncio.</strong><span>Planejamento · Criativos · Mídia · Otimização</span></div></div>
+<section class="section" id="negocio"><div class="wrap intro"><div><div class="eyebrow">O desafio</div><h2>Ter um bom negócio <span>não garante atenção.</span></h2></div><div><p class="lead">No digital, o seu concorrente não precisa ser melhor. Ele só precisa aparecer antes.</p><p class="bodycopy">Muitos negócios investem em anúncios sem estratégia e acabam gastando mais do que deveriam, com resultados que não aparecem. Os problemas mais comuns que vemos:</p><div class="list"><div class="list-row"><div class="list-icon">◌</div><h3>Você não aparece para quem procura por você</h3><p>Se as pessoas certas não chegam até você, existe oportunidade sendo perdida.</p></div><div class="list-row"><div class="list-icon">＋</div><h3>Você impulsiona sem saber por quê</h3><p>Campanha precisa nascer de um objetivo, não apenas de um botão de impulsionar.</p></div><div class="list-row"><div class="list-icon">↗</div><h3>Você não sabe o que funciona</h3><p>Dados servem para encontrar caminhos melhores e parar de decidir no achismo.</p></div></div></div></div></section>
+<section class="image-band"><div class="wrap"><div class="image-frame"><img src="assets/img/business.jpg" alt="Empresária em seu estabelecimento"><div class="image-copy"><small>POR TRÁS DE CADA CAMPANHA</small><h2>Estratégia não é apertar <span>“publicar”.</span></h2><p>É entender o negócio antes de colocar dinheiro na mídia. É testar, observar, ajustar e continuar procurando uma forma melhor de chegar às pessoas certas.</p></div></div></div></section>
+<section class="section services" id="servicos"><div class="wrap"><div class="services-head"><div><div class="eyebrow">O que fazemos</div><h2>Menos complicação.<br><span>Mais intenção.</span></h2></div><p>Uma operação de tráfego construída para entender o seu negócio e melhorar a forma como ele é apresentado ao mercado.</p></div><div class="service-list"><div class="service"><div class="service-num">01</div><h3>Gestão de tráfego</h3><p>Planejamento, configuração e gestão das campanhas.</p><div class="service-arrow">↗</div></div><div class="service"><div class="service-num">02</div><h3>Criativos & anúncios</h3><p>Mensagens e peças pensadas para chamar atenção e gerar ação.</p><div class="service-arrow">↗</div></div><div class="service"><div class="service-num">03</div><h3>Dados & otimização</h3><p>Acompanhamento das métricas para entender o que merece continuar.</p><div class="service-arrow">↗</div></div><div class="service"><div class="service-num">04</div><h3>Estratégia</h3><p>Direção para conectar mídia, oferta, público e objetivo.</p><div class="service-arrow">↗</div></div></div></div></section>
+<section class="section process" id="processo"><div class="wrap process-grid"><div class="process-intro"><div class="eyebrow">Como trabalhamos</div><h2>Não existe campanha igual para todo negócio.</h2><p>Por isso, a VYRA começa entendendo onde você está, para depois decidir onde colocar o dinheiro.</p></div><div class="steps"><div class="step"><b>01</b><div><h3>Entendemos</h3><p>Produto, serviço, público, oferta e objetivo. Primeiro vem o contexto.</p></div></div><div class="step"><b>02</b><div><h3>Planejamos</h3><p>Definimos a estrutura da campanha e o que precisa ser testado.</p></div></div><div class="step"><b>03</b><div><h3>Colocamos no ar</h3><p>Campanhas e criativos entram em operação com acompanhamento próximo.</p></div></div><div class="step"><b>04</b><div><h3>Otimizamos</h3><p>Os dados mostram o que está funcionando e orientam os próximos movimentos.</p></div></div></div></div></section>
+<section class="about"><div class="wrap about-grid"><div class="about-media"><img src="assets/img/team.jpg" alt="Equipe VYRA ADS"></div><div><div class="eyebrow">Por trás da VYRA</div><h2>Não basta <span>publicar.</span> É preciso saber por quê.</h2><p>É entender o negócio antes de colocar dinheiro na mídia. É testar, observar, ajustar e continuar procurando uma forma melhor de chegar às pessoas certas.</p></div></div></section>
+<section class="section contact" id="contato"><div class="wrap contact-grid"><div><div class="eyebrow">Vamos conversar</div><h2>Se você sente que sua empresa poderia estar sendo mais vista, vamos falar sobre isso.</h2><p class="contact-copy">Sem formulário complicado. Conte um pouco sobre o seu negócio e o que você quer melhorar. A primeira conversa começa por aí.</p></div><div class="contact-box"><small>Contato direto</small><p>Fale com a VYRA pelo WhatsApp.</p><a class="bigbutton" href="https://wa.me/5511947813814?text=Ol%C3%A1!%20Conheci%20a%20VYRA%20ADS%20pelo%20site%20e%20gostaria%20de%20entender%20como%20voc%C3%AAs%20podem%20ajudar%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">Quero falar sobre meu negócio <span>→</span></a></div></div></section>
+</main>
+<footer><div class="wrap foot"><img class="logo" src="assets/img/logo.png" alt="VYRA ADS"><span>© 2026 VYRA ADS. Estratégia, mídia e performance.</span></div></footer>
+</body></html>
